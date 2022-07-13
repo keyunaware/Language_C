@@ -5,4 +5,4 @@
             RUN mkdir fld_c
             # Copying myfile1.txt to the containers /usr/share directory
             COPY *.C /usr/share
-            MV *.C /fld_java
+            MV *.C /fld_c
